@@ -19,7 +19,12 @@ function App() {
   return (
     <div className="App">
       <div className="App-header"></div>
-      <img src={photoData.url} alt="a daily astronomy photo" />
+      <div className="App-container">        
+      <Img className="hero" source={photoData.url} alt="a daily astronomy photo" />
+      <Info className="info" date={photoData.date} desc={photoData.explanation} copyright={photoData.copyright}
+        title={photoData.title}/>
+      </div>
+      
       
     </div>
   );
