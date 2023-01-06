@@ -24,6 +24,18 @@
   color: white;
 }
 
+.App-container {
+  display: flex;
+}
+
+img.hero {
+  flex-grow: 2;
+}
+
+.info {
+  flex-grow: 1;
+}
+
 .App-link {
   color: #61dafb;
 }
