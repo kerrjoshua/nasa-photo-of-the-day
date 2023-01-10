@@ -26,14 +26,24 @@
 
 .App-container {
   display: flex;
+  max-height: 90vh;
+  max-width: 100%;
 }
 
 img.hero {
   flex-grow: 2;
+  max-width: 66%;
+
 }
 
 .info {
   flex-grow: 1;
+  color: red;
+}
+
+.info * {
+  text-align: left;  
+  color: red;
 }
 
 .App-link {
